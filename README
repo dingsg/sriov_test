@@ -1,0 +1,9 @@
+## you need to manually install packages listed below
+
+# host
+apt install python-libvirt
+pip install netifaces
+pip install paramiko
+
+# guest
+apt/yum install qemu-guest-agent
